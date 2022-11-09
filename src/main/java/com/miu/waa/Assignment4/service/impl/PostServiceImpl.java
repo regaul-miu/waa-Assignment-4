@@ -1,17 +1,16 @@
-package com.miu.waa.Assignment3.service.impl;
+package com.miu.waa.Assignment4.service.impl;
 
-import com.miu.waa.Assignment3.domain.Comment;
-import com.miu.waa.Assignment3.domain.Post;
-import com.miu.waa.Assignment3.domain.dto.CommentDto;
-import com.miu.waa.Assignment3.domain.dto.PostDto;
-import com.miu.waa.Assignment3.repo.PostRepo;
-import com.miu.waa.Assignment3.service.PostService;
+import com.miu.waa.Assignment4.domain.Comment;
+import com.miu.waa.Assignment4.domain.Post;
+import com.miu.waa.Assignment4.domain.dto.CommentDto;
+import com.miu.waa.Assignment4.domain.dto.PostDto;
+import com.miu.waa.Assignment4.repo.PostRepo;
+import com.miu.waa.Assignment4.service.PostService;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service

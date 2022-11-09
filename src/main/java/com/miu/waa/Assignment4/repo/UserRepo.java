@@ -1,7 +1,7 @@
-package com.miu.waa.Assignment3.repo;
+package com.miu.waa.Assignment4.repo;
 
-import com.miu.waa.Assignment3.domain.Post;
-import com.miu.waa.Assignment3.domain.User;
+import com.miu.waa.Assignment4.domain.Post;
+import com.miu.waa.Assignment4.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

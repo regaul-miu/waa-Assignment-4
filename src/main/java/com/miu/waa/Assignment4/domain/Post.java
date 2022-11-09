@@ -1,4 +1,4 @@
-package com.miu.waa.Assignment3.domain;
+package com.miu.waa.Assignment4.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,12 +11,14 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class Post {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
     long id;
-    String name;
+    String title;
+    String content;
+    String author;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name="user_id")
-    List<Post> posts;
+    @JoinColumn(name = "post-id")
+    List<Comment> comments;
 }

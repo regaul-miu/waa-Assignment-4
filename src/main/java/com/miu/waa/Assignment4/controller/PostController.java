@@ -1,10 +1,8 @@
-package com.miu.waa.Assignment3.controller;
+package com.miu.waa.Assignment4.controller;
 
-import com.miu.waa.Assignment3.domain.Comment;
-import com.miu.waa.Assignment3.domain.Post;
-import com.miu.waa.Assignment3.domain.dto.CommentDto;
-import com.miu.waa.Assignment3.domain.dto.PostDto;
-import com.miu.waa.Assignment3.service.PostService;
+import com.miu.waa.Assignment4.domain.dto.CommentDto;
+import com.miu.waa.Assignment4.domain.dto.PostDto;
+import com.miu.waa.Assignment4.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

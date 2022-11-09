@@ -1,9 +1,9 @@
-package com.miu.waa.Assignment3.controller;
+package com.miu.waa.Assignment4.controller;
 
-import com.miu.waa.Assignment3.domain.dto.PostDto;
-import com.miu.waa.Assignment3.domain.dto.UserDto;
-import com.miu.waa.Assignment3.service.UserService;
-import org.modelmapper.ModelMapper;
+import com.miu.waa.Assignment4.aspect.annotation.ExecutionTime;
+import com.miu.waa.Assignment4.domain.dto.PostDto;
+import com.miu.waa.Assignment4.domain.dto.UserDto;
+import com.miu.waa.Assignment4.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,6 +20,7 @@ public class UserController {
     public List<UserDto> getUsers(){
         return userService.getUsers();
     }
+    @ExecutionTime
     @GetMapping("{id}")
     public UserDto getUserById(@PathVariable("id") long id){
         return userService.getUserById(id);

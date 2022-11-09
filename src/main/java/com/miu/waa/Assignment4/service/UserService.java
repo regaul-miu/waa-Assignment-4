@@ -1,7 +1,7 @@
-package com.miu.waa.Assignment3.service;
+package com.miu.waa.Assignment4.service;
 
-import com.miu.waa.Assignment3.domain.dto.PostDto;
-import com.miu.waa.Assignment3.domain.dto.UserDto;
+import com.miu.waa.Assignment4.domain.dto.PostDto;
+import com.miu.waa.Assignment4.domain.dto.UserDto;
 
 import java.util.List;
 

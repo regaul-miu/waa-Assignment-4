@@ -1,4 +1,4 @@
-package com.miu.waa.Assignment3.controller;
+package com.miu.waa.Assignment4.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

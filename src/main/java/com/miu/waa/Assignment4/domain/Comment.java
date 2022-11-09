@@ -1,4 +1,4 @@
-package com.miu.waa.Assignment3.domain;
+package com.miu.waa.Assignment4.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.miu.waa.Assignment3.service.impl;
+package com.miu.waa.Assignment4.service.impl;
 
-import com.miu.waa.Assignment3.service.CommentService;
+import com.miu.waa.Assignment4.service.CommentService;
 import org.springframework.stereotype.Service;
 
 @Service

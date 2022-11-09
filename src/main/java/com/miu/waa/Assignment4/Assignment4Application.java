@@ -1,4 +1,4 @@
-package com.miu.waa.Assignment3;
+package com.miu.waa.Assignment4;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class Assignment3Application {
+public class Assignment4Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Assignment3Application.class, args);
+		SpringApplication.run(Assignment4Application.class, args);
 	}
 
 	@Bean
