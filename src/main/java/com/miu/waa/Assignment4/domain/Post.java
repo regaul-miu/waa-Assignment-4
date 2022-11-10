@@ -19,6 +19,6 @@ public class Post {
     String content;
     String author;
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    @JoinColumn(name = "post-id")
+    @JoinColumn(name = "post_id")
     List<Comment> comments;
 }
